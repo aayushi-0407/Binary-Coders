@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".bug_bite">
+
+    <Button
+        android:id="@+id/openCameraButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="250sp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"/>
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/processButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Process Image"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

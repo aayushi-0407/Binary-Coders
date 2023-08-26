@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#F7F7F7"
+    tools:context=".Doc_prec">
+
+    <EditText
+        android:id="@+id/userInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter your input"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/consultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consult"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/assistantReplyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assistant's Reply:"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginTop="16dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/assistantReplyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideOverlay"
+            android:padding="8dp" />
+
+    </ScrollView>
+
+</LinearLayout>

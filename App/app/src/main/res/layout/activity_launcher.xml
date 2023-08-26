@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/background_light"
+
+    tools:context=".Launcher">
+
+    <Button
+        android:id="@+id/buttonPage1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat with Us"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="250sp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp" />
+
+    <Button
+        android:id="@+id/buttonPage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telle Doctor"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp" />
+
+
+    <Button
+        android:id="@+id/buttonPage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insect Bite Detection"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:elevation="4dp" />
+</LinearLayout>
