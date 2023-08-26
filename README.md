@@ -10,4 +10,5 @@ Developing a Comprehensive Healthcare App with AI-powered Telemedicine and Image
 ## 3. Healthcare App
 
 
-
+#ML Model
+https://drive.google.com/file/d/1A6djXvjGaUyyFvtPdQQdVEK9VADzFTqJ/view?usp=drive_link
